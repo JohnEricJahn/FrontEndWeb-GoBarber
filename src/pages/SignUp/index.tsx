@@ -49,7 +49,12 @@ const SignUp: React.FC = () => {
           <h1>Faça seu logon</h1>
           <Input placeholder="Nome" name="name" icon={FiUser} />
           <Input placeholder="E-mail" name="email" icon={FiMail} />
-          <Input placeholder="Senha" name="password" icon={FiLock} />
+          <Input
+            placeholder="Senha"
+            name="password"
+            icon={FiLock}
+            type="password"
+          />
 
           <Button type="submit">Entrar</Button>
         </Form>

@@ -32,6 +32,7 @@
     "no-unused-expressions": "off",
     "react/jsx-props-no-spreading": "off",
     "react/prop-types": "off",
+    "@typescript-eslint/ban-types": "off",
     "react/jsx-one-expression-per-line": "off",
     "camelcase": "off",
     "prettier/prettier": "error",

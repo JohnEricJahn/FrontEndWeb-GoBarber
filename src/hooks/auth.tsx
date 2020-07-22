@@ -7,7 +7,6 @@ interface SignInCredentials {
 }
 
 interface AuthContextData {
-  // eslint-disable-next-line @typescript-eslint/ban-types
   user: object;
   signIn(credentials: SignInCredentials): Promise<void>;
   signOut(): void;
@@ -15,7 +14,6 @@ interface AuthContextData {
 
 interface AuthState {
   token: string;
-  // eslint-disable-next-line @typescript-eslint/ban-types
   user: object;
 }
 
